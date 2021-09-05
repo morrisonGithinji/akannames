@@ -1,3 +1,5 @@
-const mnames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-const fnames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-
+function myFunction() {
+  const d = new Date();
+  const dayOfWeek = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
+  const d = dayOfWeek[d.getDay()];
+  document.getElementById("dob").innerHTML = d;
