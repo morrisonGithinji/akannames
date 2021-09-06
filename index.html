@@ -17,23 +17,23 @@
         <p>This is a web application to help you identify the day you were born and also get to know your <span>Akan Name,</span> <br>
           which is a naming tradition in <em>Ghana </em>where people are named after the day they were born</p>
     </div>
-    <div class="inputs">
+    <div>
       <form id="akanName"> 
         <label for="fname">First name:</label><br>
         <input type="text" name="fname"><br>
         <label for="sname">Sir name:</label><br>
         <input type="text" name="sname"><br>
-        <label for="dob">Date of Birth</label><br>
-        <input type="date" id="dob" name="dob"><br>
+        <label for="dob">myDate</label><br>
+        <input class="form-control"type ="date" id="date"><br>
       <p>Choose your Gender</p>
         <input type="radio"name="gender" value="male">
         <label for="female">Female</label><br>
         <input type="radio"name="gender" value="female">
         <label for="male">Male</label><br>
-        <input type="submit" value="submit">
+        <input class="button" type="button" onclick="myDate()" value="submit">
       </form>
     </div>
     
-    <script src="generator.js"></script>
+    <script src="akan.js"></script>
   </body>
 </html>
