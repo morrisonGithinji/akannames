@@ -1,6 +1,9 @@
-function myDate() {
-  var date = document.getElementById("date").value;
-  var gender= document.getElementById("gender").value;
+const akanName = (e) => {
+  e.preventDefault();
+
+  function myDate() {
+  const date = document.getElementById("date").value;
+  const gender= document.getElementById("gender").value;
 
   if ( date == ""){
     alert("please select valid date");
@@ -8,10 +11,10 @@ function myDate() {
 
   }
   console.log(date)
-  var myDay = new date(date);
-  var currentDay =myDay.getDay();
+  const myDay = new date(date);
+  const currentDay =myDay.getDay();
 
-  if (currentDay <("0 + currentDay">"31") {}
+  if (currentDay <("0 + currentDay">"31") {
     alert("Invalid Date");
   }
    displayName(currentDay, gender);
@@ -53,3 +56,4 @@ function myDate() {
 
     }
   }
+}
