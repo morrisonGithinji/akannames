@@ -26,3 +26,14 @@ padding: 50px;
 margin: 20px;
 text-align: center;
 }
+img
+    {
+    
+      margin-left: 25%;
+      margin-right: 25%;      
+      border-radius: 50%;
+    border-color: black;
+    border: solid;
+    border: bold;
+    width: 25pc;
+    }
