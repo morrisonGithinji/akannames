@@ -14,7 +14,7 @@ const akanName = (e) => {
   const myDay = new date(date);
   const currentDay =myDay.getDay();
 
-  if (currentDay <("0 + currentDay">"31") {
+  if (currentDay <("0 || currentDay">"31") {
     alert("Invalid Date");
   }
    displayName(currentDay, gender);
